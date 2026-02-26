@@ -6,11 +6,31 @@ body {
   font-family: Georgia, serif;
   background: #f5f2ec;
   color: #111111;
-  line-height: 1.6;
+  line-height: 1.65;
   margin: 0;
   padding: 2rem;
 }
 
 p {
   color: #444444;
+  margin: 0 0 0.9rem;
+}
+
+small,
+.muted,
+.text-muted {
+  color: #444444;
+}
+
+a {
+  color: #1f4fa3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: inherit;
 }
