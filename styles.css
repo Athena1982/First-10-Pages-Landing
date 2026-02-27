@@ -5,8 +5,8 @@
   --surface-soft: #fcf8f1;
   --ink: #1d1c1a;
   --text: #111111;
-  --muted: #444444;
-  --muted2: #5e5e5e;
+  --muted: #424242;
+  --muted2: #5a5a5a;
   --ink-soft: #4a4843;
   --ink-quiet: #6b6860;
   --line: rgba(0, 0, 0, 0.16);
@@ -16,9 +16,9 @@
   --accent-soft: #ebd4be;
   --success: #3f7e54;
 
-  --fs-body: 1.0625rem;
+  --fs-body: 1.075rem;
   --fs-micro: 0.92rem;
-  --lh: 1.58;
+  --lh: 1.62;
 
   --radius-sm: 8px;
   --radius-md: 12px;
@@ -39,6 +39,7 @@
 }
 
 html {
+  font-size: 18px;
   scroll-behavior: smooth;
 }
 
@@ -74,7 +75,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.12em;
   color: var(--muted2);
-  font-size: 0.92rem;
+  font-size: var(--fs-micro);
   margin-bottom: var(--space-2);
 }
 
@@ -96,6 +97,10 @@ body {
 .micro,
 .micro-quiet {
   font-size: var(--fs-micro);
+}
+
+.micro {
+  color: var(--muted);
 }
 
 .hero-authority {
@@ -257,11 +262,11 @@ section {
 
 .subline {
   margin-top: 0.45rem;
-  color: var(--ink-soft);
+  color: var(--muted);
 }
 
 .micro-quiet {
-  color: var(--ink-quiet);
+  color: var(--muted2);
 }
 
 .rule {
