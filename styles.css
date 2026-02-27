@@ -4,8 +4,9 @@
   --surface: #ffffff;
   --surface-soft: #fcf8f1;
   --ink: #1d1c1a;
-  --muted: #3f3f3f;
-  --muted2: #565656;
+  --text: #111111;
+  --muted: #444444;
+  --muted2: #5e5e5e;
   --ink-soft: #4a4843;
   --ink-quiet: #6b6860;
   --line: rgba(0, 0, 0, 0.16);
@@ -17,7 +18,7 @@
 
   --fs-body: 1.0625rem;
   --fs-micro: 0.92rem;
-  --lh: 1.6;
+  --lh: 1.58;
 
   --radius-sm: 8px;
   --radius-md: 12px;
